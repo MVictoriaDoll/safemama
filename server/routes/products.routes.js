@@ -23,7 +23,7 @@ router.get('/', async (req, res) => {
       query.category = category;
     }
 
-    const products = await Product.find(query);
+    const products = await Product.find(query).sort({ createdAt: -1 });
 
 
     res.json(products);
@@ -55,6 +55,8 @@ router.post('/', async (req, res) => {
   }
 
 });
+
+
 
 
 
