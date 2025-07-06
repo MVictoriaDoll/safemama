@@ -69,3 +69,7 @@ Make sure MongoDB is running locally before starting the backend.
 The app loads an initial set of products. You can edit or expand this data from the backend.
 
 To use MongoDB Atlas instead of local DB, replace the MONGO_URI with your own connection string.
+
+---
+
+![SafeMama UI](./images/safemama-showcase-readme.png);

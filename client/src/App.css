@@ -121,5 +121,11 @@ ul {
     gap: 1rem; 
   }
 
+  .product-list {
+    max-height: 100px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+  }
 
 }
+
